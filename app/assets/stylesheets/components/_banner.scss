@@ -1,0 +1,44 @@
+.banner {
+  background-image: linear-gradient(-225deg, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0.7) 80%), url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1507926838/webby_r9nyp4.jpg');
+  color: #d69f8f;
+  text-align: center;
+  height: 100vh;
+  max-width: 100%;
+  background-size: cover !important;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: space-between;
+  flex-direction: column;
+  padding: 200px 20px 60px 20px;
+  a {
+    color: #d69f8f;
+    margin-top: 30px;
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
+  a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+}
+.banner-content {
+  h1 {
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    font-size: 80px;
+    letter-spacing: 28px;
+    margin-bottom: 200px;
+    font-weight: lighter;
+  }
+  h2 {
+    letter-spacing: 8px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 45px;
+  }
+}
+
+
+
+
+
