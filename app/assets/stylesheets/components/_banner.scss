@@ -11,16 +11,6 @@
   align-items: space-around;
   flex-direction: column;
   padding: 20vh 20px 40px 20px;
-  a {
-    color: #d69f8f;
-    margin-top: 10px;
-    font-size: 32px;
-    letter-spacing: 1px;
-  }
-  a:hover {
-    text-decoration: none;
-    opacity: 0.8;
-  }
 }
 .banner-content {
   h1 {
@@ -61,6 +51,9 @@
   }
   .banner-content h1 {
     margin-bottom: 50px;
+  }
+  .contact {
+    margin-top: 10vh;
   }
 }
 @media only screen and (max-width: 568px) {
